@@ -1,0 +1,36 @@
+body {
+    background-image: url('recipe assets/boris zlotsky foodburger.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: auto;
+    color: greenyellow;
+}
+
+h1 {
+font-family: fantasy;
+-webkit-text-stroke: 1px black;
+}
+
+ul {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    color:black;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.2px greenyellow;
+    list-style-type: none;
+}
+
+#congrats {
+    font-family: fantasy;
+    -webkit-text-stroke: 0.2px black;
+    text-decoration: underline;
+}
+
+#the-meal {
+    box-sizing: border-box;
+    border: 3px solid greenyellow;
+    background: yellow;
+    padding: 3px;
+    border-radius: 10px;
+}

@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/1200x/7a/9a/82/7a9a82d9ce7c1d847876be13781884f2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div {
+    align-content: center;
+    border: 2px solid;
+    border-color: black;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium';
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Courier New';
+}
+
+.rectangle {
+    width: 400px;
+}
