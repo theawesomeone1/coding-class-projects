@@ -1,0 +1,45 @@
+ 
+ body{
+        background-image: url('https://i.pinimg.com/736x/2a/69/42/2a69420aecd7cb1ac8f786208b0c655c.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      hr {
+  border-color:greenyellow;
+    }
+
+    .first-symbol::first-letter {
+        color: rgb(242, 250, 0);
+    }
+
+    .last-symbol {
+        color: rgb(242, 250, 0)
+    }
+
+    button:active {
+        transform: scale(0.97);
+        border-color: greenyellow !important;
+    }
+
+    form:has(input:invalid) button:hover {
+        border-color: mediumvioletred !important;
+        cursor: not-allowed;
+    }
+
+    input {
+        border: 3px solid rgb(222, 240, 27);
+    }
+
+    input[type="email"]:valid, input[type="tel"]:valid, input[type="text"]:valid {
+        border-color: greenyellow;
+    }
+
+    input[type="email"]:invalid:not(:placeholder-shown), input[type="tel"]:invalid:not(:placeholder-shown) {
+        border-color: mediumvioletred;
+    }
+
+    input[type="radio"]:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }

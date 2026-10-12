@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>my awesome paragraph</title>
+    </head>
+    <body>
+      <h1><strong><em>My Awesome Paragraph</em></strong></h1>
+      <hr>
+      <br>
+      <h2><u>In blog post structure</u></h2>
+      <br>
+      <p>This is my first paragraph in HTML!</p>
+      <p><em>(It's actually not at all my first paragraph in HTML)</em></p>
+      <br>
+      <h2><u>I just have to say that for the challenge</u></h2>
+      <br>
+      <p>I'm really good at this aren't I</p>
+      <img src=https://i.pinimg.com/736x/d3/18/4d/d3184d6af96f063a482a660d6ff81e52.jpg alt="cool freaking mischeivous grin">
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
