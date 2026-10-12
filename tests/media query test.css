@@ -1,0 +1,45 @@
+/* desktop first styling */
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+/* tablets */
+@media screen and (max-width: 1024px) {
+    .box {
+        height: 150px;
+        width: 150px;
+    }
+}
+/*  phones */
+@media (max-width: 768px) {
+    .box {
+        height: 100px;
+        width: 100px;
+    }
+}
+/* small phones */
+@media (max-width: 480px) {
+    .box {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+/* mobile first styling */
+.body {
+    height: 100vh
+}
+
+.box {
+    
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
